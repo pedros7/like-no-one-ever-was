@@ -1,5 +1,5 @@
 from sqlmodel import Field, SQLModel
-from src.models.battlepokemon import BattlePokemon
+from src.models.pokemon import BattlePokemon
 
 
 class Trainer(SQLModel, table=True):
