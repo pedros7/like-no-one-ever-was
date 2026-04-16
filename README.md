@@ -1,5 +1,5 @@
 # like-no-one-ever-was: Pokémon AI Battle Simulation & Elo Ranking System
-A long-awaited passion project: a Pokémon battle simulator designed to determine the strongest trainer in Pokémon Yellow by ranking them using an Elo-based system. Inspired by similar work from pimanrules, but built with my own approach and perspective.
+A long-awaited passion project: a Pokémon battle simulator designed to determine the strongest NPC trainer in Pokémon Yellow by ranking them using an Elo-based system. Inspired by similar work from pimanrules, but built with my own approach and perspective.
 
 This project is built around a **database-first architecture**, where all Pokémon, move, and type data is stored in a structured database and fetched dynamically at runtime before each battle.
 
