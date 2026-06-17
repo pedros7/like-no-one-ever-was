@@ -5,6 +5,7 @@ class Move(SQLModel, table=True):
     id: int | None = Field(default=None, primary_key=True)
     name: str
     type: str
+    contact: bool
 
     pp: int
     power: int | None = None
