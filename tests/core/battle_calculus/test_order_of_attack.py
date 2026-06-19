@@ -5,7 +5,7 @@ import pytest
 
 from src.models.move import BattleMove
 from src.models.pokemon import BattlePokemon
-from core.battle_calculus.order_of_attack import (
+from src.core.battle_calculus.order_of_attack import (
     PARALYSIS_SPEED_MULTIPLIER,
     Priority,
     TurnOrder,
@@ -13,7 +13,8 @@ from core.battle_calculus.order_of_attack import (
     effective_speed,
     get_move_priority,
 )
-from models import Move, Pokemon
+from src.models.move import Move
+from src.models.pokemon import Pokemon
 
 # ---------------------------------------------------------------------------
 # Factories — build minimal objects without a DB session

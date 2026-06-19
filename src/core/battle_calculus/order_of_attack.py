@@ -2,9 +2,9 @@ import random
 from dataclasses import dataclass
 from enum import IntEnum
 
-from models.move import BattleMove
-from models.pokemon import BattlePokemon
-from models.status import StatusKind
+from src.models.move import BattleMove
+from src.models.pokemon import BattlePokemon
+from src.models.status import StatusKind
 
 
 class Priority(IntEnum):
